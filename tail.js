@@ -9,6 +9,6 @@ const assertEqual = function(actual, expected) {
 };
 
 
-const head = function(array) {
-  return array[0];
+const tail = function(array) {
+  return array.slice(1);
 };
