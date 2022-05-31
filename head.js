@@ -8,5 +8,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual('Bootcamp', "Bootcamp");
-assertEqual(3, 1);
+
+const head = function(array) {
+  return array[0];
+}  
+
+assertEqual(head([8, 9, 10]), 8);
+assertEqual(head(["Lighthouse", "Labs"]), "Lighthouse");
