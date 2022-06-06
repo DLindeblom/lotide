@@ -1,5 +1,3 @@
-
-
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length){
     return false
@@ -11,6 +9,4 @@ const eqArrays = function(arr1, arr2) {
   } return true;
 };
 
-
-
-console.log(eqArrays(["a", "b"], ['a', 'b']))
+module.exports = eqArrays;
