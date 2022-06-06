@@ -1,8 +1,3 @@
-// const assertEqual = require("../assertEqual")
-// const tail = require("../tail");
-
-// assertEqual(tail([1,2,3,4,5]), 5)
-
 const assert = require("chai").assert;
 const tail = require("../tail");
 
